@@ -7,8 +7,10 @@ Can be found [here](https://starira-story-searcher.onrender.com/).
 ## Build locally
 ### Inside `backserver` folder
 `npm i
+
 node server.js`
 
 ### Inside `client` folder
 `npm i
+
 npm start`
