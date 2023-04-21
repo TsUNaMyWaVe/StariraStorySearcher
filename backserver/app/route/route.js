@@ -1,8 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 const app = express();
 const searcher = require("../searcher/search");
 const port = 5432;
+const routePath = "app/route";
+
+app.use(express.static(path.join((__dirname).substring(0, __dirname.length-routePath.length) + 'public')))
 
 app.use(bodyParser.json());
 

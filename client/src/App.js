@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import Charactrers from './formData/characters';
 import StoryTypes from './formData/stories';
@@ -89,7 +89,7 @@ function App() {
       </div>
       </div>
       <div className='Footer'>
-        <h3>Created by <a href="https://twitter.com/TsUNaMy_WaVe" target='_blank'>TsUNaMy WaVe</a>, using <a href="https://karth.top/" target='_blank'>Karth</a>'s API.</h3>
+        <h3>Created by <a href="https://twitter.com/TsUNaMy_WaVe" target='_blank' rel="noreferrer">TsUNaMy WaVe</a>, using <a href="https://karth.top/" target='_blank' rel="noreferrer">Karth</a>'s API.</h3>
       </div>
     </div>
   );
