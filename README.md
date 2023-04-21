@@ -5,10 +5,10 @@ Searching through Revue Starlight Relive stories, using Karth's API.
 Can be found [here](https://starira-story-searcher.onrender.com/).
 
 ## Build locally
-# Inside `backserver` folder
+### Inside `backserver` folder
 `npm i
 node server.js`
 
-# Inside `client` folder
+### Inside `client` folder
 `npm i
 npm start`
