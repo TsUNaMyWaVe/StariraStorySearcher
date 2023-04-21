@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto:300');
+
+@font-face {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url('https://i.imgur.com/Lviptpu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	font-size:11pt;
+}
+
+li {
+    list-style-type: none;
+}
+
+.AppParent {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 20px
+}
+
+.BannerParent {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #5c0808;
+}
+
+h3 {
+    color: #5c0808;
+}
+
+.Banner {
+    font-family: "Merriweather Sans", sans-serif;
+    border-radius: 25px;
+    background: #ffffffad;
+    padding: 5px;
+  
+}
+
+.App {
+    background: #ffffffad;
+    padding: 30px;
+    border-bottom: var(--ui-shadow-border);
+    box-shadow: var(--ui-shadow);
+    border-radius: 25px;
+    line-height: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+label.mainLabel:after { content: ": " }
+
+.NavButton {
+    height: 30px;
+    background: #fa4141;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    border: 0px;
+}
+
+.NavButton:hover {
+    background: #b11e1e;
+}
+
+.Footer {
+    bottom: 0px;  
+    border-radius: 5px;
+    background: #ffffffad;
+    padding: 5px;
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+a {
+	color:#fa4141;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#b11e1e;
+}
