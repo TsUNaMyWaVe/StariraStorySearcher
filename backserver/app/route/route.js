@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 const searcher = require("../searcher/search");
-const port = 5432;
+const port = 3000;
 const routePath = "app/route";
 
 app.use(express.static(path.join((__dirname).substring(0, __dirname.length-routePath.length) + 'public')))
